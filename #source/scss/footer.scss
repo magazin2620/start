@@ -1,0 +1,39 @@
+.footer {
+	position: absolute;
+	width: 100%;
+	top: 92%;
+
+	z-index: 5;
+	&__row {
+		@include flexbox();
+		align-items: center;
+	}
+
+	&__share {
+		position: absolute;
+		top: auto;
+		left: 95%;
+	}
+
+	&__text {
+		position: absolute;
+		top: auto;
+		left: 45%;
+		font-weight: 700;
+		font-size: 24px;
+		color: #ebebeb;
+		letter-spacing: 1px;
+	}
+
+	&__nav {
+		position: absolute;
+		top: auto;
+		left: 3%;
+	}
+}
+._container {
+}
+
+//====================================================================================================
+
+//====================================================================================================
